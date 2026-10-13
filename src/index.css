@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-jua {
+    font-family: 'Jua', 'Pretendard', sans-serif;
+  }
+  .font-gaegu {
+    font-family: 'Gaegu', cursive, sans-serif;
+  }
+}
+
+/* Kid-friendly custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@keyframes gentle-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-gentle-bounce {
+  animation: gentle-bounce 2s ease-in-out infinite;
+}

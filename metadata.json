@@ -1,0 +1,6 @@
+{
+  "name": "조·억·만 큰 수 읽기 게임",
+  "description": "조, 억, 만 단위의 큰 수를 랜덤 생성하여 빠르고 정확하게 소리 내어 읽는 타이머 스피드 연습 게임",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
